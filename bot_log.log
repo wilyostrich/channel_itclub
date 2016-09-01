@@ -1,0 +1,5 @@
+[01.09.2016 20:46:21] bot2.py:48 INFO - [VK] Started scanning for new posts
+[01.09.2016 20:46:21] bot2.py:54 INFO - Previous last_id is 2400
+[01.09.2016 20:46:22] bot2.py:73 INFO - New last_id (VK) is 2400
+[01.09.2016 20:46:22] bot2.py:80 INFO - [VK] Finished scanning
+[01.09.2016 20:46:22] bot2.py:94 INFO - [App] Script went to sleep.
