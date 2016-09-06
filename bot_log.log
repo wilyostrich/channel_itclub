@@ -43,3 +43,8 @@
 [06.09.2016 17:49:30] bot.py:81 ERROR - Exception of type IndexError in check_new_post(): list index out of range
 [06.09.2016 17:49:30] bot.py:83 INFO - [VK] Finished scanning
 [06.09.2016 17:49:30] bot.py:112 INFO - [App] Script went to sleep.
+[06.09.2016 17:53:30] bot.py:51 INFO - [VK] Started scanning for new posts
+[06.09.2016 17:53:30] bot.py:57 INFO - Previous last_id is 2400
+[06.09.2016 17:53:31] bot.py:81 ERROR - Exception of type IndexError in check_new_post(): list index out of range
+[06.09.2016 17:53:31] bot.py:83 INFO - [VK] Finished scanning
+[06.09.2016 17:53:31] bot.py:112 INFO - [App] Script went to sleep.

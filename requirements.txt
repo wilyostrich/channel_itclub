@@ -1,0 +1,6 @@
+PyTelegramBotAPI
+time
+eventlet
+requests
+logging
+telebot
