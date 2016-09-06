@@ -38,3 +38,8 @@
 [06.09.2016 17:47:54] bot.py:72 INFO - New last_id (VK) is 2406
 [06.09.2016 17:47:54] bot.py:79 INFO - [VK] Finished scanning
 [06.09.2016 17:47:54] bot.py:92 INFO - [App] Script went to sleep.
+[06.09.2016 17:49:30] bot.py:51 INFO - [VK] Started scanning for new posts
+[06.09.2016 17:49:30] bot.py:57 INFO - Previous last_id is 2404
+[06.09.2016 17:49:30] bot.py:81 ERROR - Exception of type IndexError in check_new_post(): list index out of range
+[06.09.2016 17:49:30] bot.py:83 INFO - [VK] Finished scanning
+[06.09.2016 17:49:30] bot.py:112 INFO - [App] Script went to sleep.
