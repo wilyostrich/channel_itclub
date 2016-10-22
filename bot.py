@@ -1,20 +1,19 @@
-# -*- coding: utf-8 -*-
-
 import time
 import eventlet
 import requests
 import logging
 import telebot
 
- # Каждый раз получаем по 1 записи со стены
-URL_VK = 'https://api.vk.com/method/wall.get?domain=itclub_psuti&count=2&filter=owner'
+# Каждый раз получаем по 10 последних записей со стены
+URL_VK = 'https://api.vk.com/method/wall.get?domain=itclub_psuti&count=10&filter=owner'
 FILENAME_VK = 'last_known_id.txt'
 BASE_POST_URL = 'https://vk.com/wall-17785357_'
 
-BOT_TOKEN = '200515320:AAF05zAjyasRj0G7Wh8b1djO9AY8Gvz1SCI'
-
+BOT_TOKEN = '136401410:AAHWrSxpoZc42S2z7Jb_V5twlByJydP8uL4'
 CHANNEL_NAME = '@itclub_psuti'
 
+# Если True, предполагается использование cron для запуска скрипта
+# Если False, процесс запускается и постоянно висит запущенный
 SINGLE_RUN = False
 
 bot = telebot.TeleBot(BOT_TOKEN)
@@ -30,7 +29,6 @@ def get_data():
     finally:
         timeout.cancel()
 
-
 def send_new_posts(items, last_id):
     for item in items:
         if item['id'] <= last_id:
@@ -40,7 +38,6 @@ def send_new_posts(items, last_id):
         # Спим секунду, чтобы избежать разного рода ошибок и ограничений (на всякий случай!)
         time.sleep(1)
     return
-
 
 def check_new_posts_vk():
     # Пишем текущее время начала
@@ -90,7 +87,7 @@ if __name__ == '__main__':
             check_new_posts_vk()
             # Пауза в 4 минуты перед повторной проверкой
             logging.info('[App] Script went to sleep.')
-            time.sleep(60 * 4)
+            time.sleep(5)
     else:
         check_new_posts_vk()
     logging.info('[App] Script exited.\n')
