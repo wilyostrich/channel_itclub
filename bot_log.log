@@ -3,3 +3,13 @@
 [26.10.2016 12:23:19] bot.py:73 INFO - New last_id (VK) is 2592
 [26.10.2016 12:23:19] bot.py:77 INFO - [VK] Finished scanning
 [26.10.2016 12:23:19] bot.py:91 INFO - [App] Script went to sleep.
+[26.10.2016 12:37:38] bot.py:45 INFO - [VK] Started scanning for new posts
+[26.10.2016 12:37:38] bot.py:51 INFO - Previous last_id is 2592
+[26.10.2016 12:37:42] bot.py:73 INFO - New last_id (VK) is 2596
+[26.10.2016 12:37:42] bot.py:77 INFO - [VK] Finished scanning
+[26.10.2016 12:37:42] bot.py:91 INFO - [App] Script went to sleep.
+[26.10.2016 14:31:17] bot.py:45 INFO - [VK] Started scanning for new posts
+[26.10.2016 14:31:17] bot.py:51 INFO - Previous last_id is 2596
+[26.10.2016 14:31:18] bot.py:73 INFO - New last_id (VK) is 2596
+[26.10.2016 14:31:18] bot.py:77 INFO - [VK] Finished scanning
+[26.10.2016 14:31:18] bot.py:91 INFO - [App] Script went to sleep.
