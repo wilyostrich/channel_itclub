@@ -1,6 +1,7 @@
 PyTelegramBotAPI
 telebot
-time
 eventlet
 requests
 logging
+setuptools
+click
